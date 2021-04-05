@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Data": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CONNECTION_STRING": "Server=localhost; Port=3306; Database=CoreCRUD;Uid=root;Pwd=123456"
+      },
+      "jsWebView2Debugging": true
+    }
+  }
+}
