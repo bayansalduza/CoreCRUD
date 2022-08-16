@@ -53,6 +53,9 @@ namespace Presantation.Controllers
             {
                 User user = unitOfWork.GetRepository<User>().Get(saveUserDto.Id);
                 user.Name = saveUserDto.Name ;
+
+
+
                 user.Password = saveUserDto.Password ;
                 user.Username = saveUserDto.Username ;
                 unitOfWork.GetRepository<User>().Update(user);
